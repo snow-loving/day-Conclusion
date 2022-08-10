@@ -58,4 +58,5 @@ git pull
 再自动merge或手动merge冲突
 再次git push
 成功解决问题
+
 `https://docs.github.com/cn/get-started/getting-started-with-git/managing-remote-repositories #为官方学习文档`
