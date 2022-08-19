@@ -41,11 +41,16 @@ git config --global user.email "your_email@youremail.com"
 git clone ssh://git@192.168.3.209:10022/shuqian/shuqianjj.git #git克隆项目
 
 5.上传操作
+
 git init（初始化）
+
 git add .（注意git add .中的“ .”把文件夹所有的文件加入要上传的文件夹中）
+
 git commit -m 'first commit'（第一次提交修改）
+
 git remote add origin https://github.com/YihangRan/ZZQ1908.git
 （这是新建仓库的http地址，查看自己的仓库的地址如下图，点击Clone or download按钮，复制即可）
+
 git push -u origin master（执行这一步的时候会让你输入git的账号和密码）
 
 端口号为10022目前 用户为418483467@qq.com  密码为：123456
@@ -58,3 +63,5 @@ git pull
 再自动merge或手动merge冲突
 再次git push
 成功解决问题
+
+`https://docs.github.com/cn/get-started/getting-started-with-git/managing-remote-repositories #为官方学习文档`
