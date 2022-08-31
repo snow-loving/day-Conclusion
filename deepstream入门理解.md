@@ -43,4 +43,14 @@ deepstream配置文件config中为模型推理设置文件
    deepstream- test1-test4 4个案例可以进行应用
    deepstream5.1为目前我们所需要的代码，可以进行推理
 
-​                        
+---
+deepstrem 编译部署项目文件存放位置
+
+```
+.tianru/configs/
+包含engine文件6个。包含配置文件3个。包含3个label标签文件
+
+然后进入文件夹deepstream里面
+```
+   
+               
